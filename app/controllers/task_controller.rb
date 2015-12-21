@@ -34,14 +34,9 @@ class TaskController
   def self.delete(id)
     Task.delete(id)
   end  
-      def reindex
-      Task.index.each do |x|
-      x = i
-      i+=1
-    end
-
      
-        
+     
+       
       end
   end
 
